@@ -27,7 +27,7 @@ Be sure that every layer is the same size. If you want the resulting image to be
 ### Only the last image shows up
 
 This is because you are not using `.png` images. `.jpg` or any other type will not work. `.png` has transparency which means there is no background and things behind it will show through. 
-//---------------------------------------
+
 ### ES Module Error \[ERR_REQUIRE_ESM\]
 
 If you are following along with the tutorial you will run into this issue unfortunately. 
@@ -48,7 +48,7 @@ Ensure that your layer names in the `config.js` file match exactly to your layer
 There have been some changes made to the code from the original video resulting from some errors when uploading files, metadata, and minting using NFTPort. Depending on your plan, Free vs Community, there are rate limits. 
 
 To fix these issues, I've updated the code to include a timeout that will allow the files to be uploaded at a slower rate, instead of all at once, eliminating these errors.  
-//--------------------------------------------------------
+
 **To use this code:**
 
 - Clone this repo or download the latest release zip file.
