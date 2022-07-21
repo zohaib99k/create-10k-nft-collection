@@ -27,7 +27,7 @@ Be sure that every layer is the same size. If you want the resulting image to be
 ### Only the last image shows up
 
 This is because you are not using `.png` images. `.jpg` or any other type will not work. `.png` has transparency which means there is no background and things behind it will show through. 
-
+//---------------------------------------
 ### ES Module Error \[ERR_REQUIRE_ESM\]
 
 If you are following along with the tutorial you will run into this issue unfortunately. 
